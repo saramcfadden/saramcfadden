@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#1463;padding:15px;">
+  <h1>Sara Mc Fadden</h1>
+  <h3>Visually Imparied Rally Navigator</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">About Me</div>
+    <div class="menuitem">Contact Me</div>
+    <div class="menuitem">Calander of Events</div>
+    <div class="menuitem">Watch Me In Action</div>
+  </div>
+
+  
+</html>
+
+
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Page</title>
+	
+	
+<body>
+<!-- Header content -->
+<header>
+  <div class="profileLogo"> 
+    <!-- Profile logo. Add a img tag in place of <span>. -->
+    <p class="logoPlaceholder"><!-- <img src="logoImage.png" alt="sample logo"> --><span> <img src="image1.jpeg" width="188" height="150" alt="Logo has a balck outline of a person holding a can with a pink race helmet"/></span></p>
+  </div>
+  <div class="profilePhoto"> 
+    <!-- Profile photo --> 
+    <img src="image0.jpeg" width="240" height="300" alt="Image of girl standing in front of rally car wearing a blue race suit. holding a pink race helmet "/> </div>
+  <!-- Identity details -->
+  <section class="profileHeader">
+    <h1>About Me </h1>
+    <h3>Sara Mc Fadden - Visually Impaired Rally Navigator </h3>
+    <hr>
+    <p> Sara is a 21 year old rally co driver from Ireland who was born with a condition called albinism - which is a condition that causes a complete absence of pigment in the skin, hair and eyes. She also suffers from Nystagmus which is a condition where her eyes move on a constant basis from left to right due to the fact that the muscles behind them never developed correctly. Both of these conditions have left Sara visually impaired since birth. <p>
+
+<p>After many setbacks along the years including finding out she could never drive which extinguished any hopes/dreams that Sara had of following in her parents footsteps and becoming a rally driver Sara switched focus and set her sights firmly on becoming a rally navigator (co driver) and in 2018 having  successfully satisfied the criteria laid down by Motorsport Ireland Sara received her competition co drivers licence just ahead of the Imokilly Mini Stages Rally in Cork in July 2018 and by doing this Sara became the first visually impaired person to ever compete in Irish rallying and achieved her life long dream and at the age of 17.<p>
+
+For more information on Motorsport <p><a href="https://www.motorsportireland.com/">Visit motorsportireland.com!</a></p>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p>Sara is now a member of the Motorsport Ireland, Elite Co-Driver Academy </p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<p><p>
+
+	<blockquote>
+	  <blockquote>
+	    <blockquote>
+	      <blockquote>
+	        <blockquote>
+	          <blockquote>
+	            <blockquote>
+	              <p>Keep up to date on all my latest news, results and upcoming events on this site </p>
+                </blockquote>
+	          </blockquote>
+	        </blockquote>
+	      </blockquote>
+	    </blockquote>
+	  </blockquote>
+	</blockquote>
+  <!-- Links to Social network accounts -->
+  <aside class="socialNetworkNavBar">
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <img src="  " alt="sample"><img src="image2.jpeg" width="100" height="100" alt=""/> </div>
+	  
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <img src="  "  alt="sample"><img src="image3.jpeg" width="95" height="95" alt=""/> </div>
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <img src="  "  alt="sample"><img src="image1 (1).jpeg" width="100" height="100" alt=""/> </div>
+    <div class="socialNetworkNav"> 
+      <!-- Add a Anchor tag with nested img tag here --> 
+      <img src=""  alt="sample"><img src="image0 (1).jpeg" width="100" height="100" alt=""/> </div>
+  </aside>
+</header>
+<!-- content -->
+<section class="mainContent"> 
+  <!-- Contact details -->
+  <section class="section1">
+    <h2 class="sectionTitle">Contact Me</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+    <div class="section1Content">
+      <p><a href="mail.saramcfadden@gmail.com"><span>Email :</a></span> </p>
+      <p><span>Phone :</span> (353)83 - 1234567</p>
+      <p><span>Address :</span> Castlebar, Mayo </p>
+    </div>
+  </section>
+  <!-- Previous experience details -->
+  <section class="section2">
+    <h2 class="sectionTitle">Calander Of Events</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">
+    <!-- First Title & company details  -->
+ 
+      <p class="sectionContent"> <!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e0f3f9;
+}
+</style>
+</head>
+<body>
+
+	<body>2022 Events
+
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Event</th>
+    <th>Driver</th>
+  </tr>
+  <tr>
+    <td>01/01/2022</td>
+    <td>Galway Rally</td>
+    <td>Andy Heekin</td>
+  </tr>
+  <tr>
+    <td>01/02/2022</td>
+    <td>Mayo Rally</td>
+    <td>Kieth Mc Fadden</td>
+  </tr>
+  <tr>
+    <td>01/03/2022</td>
+    <td>West Cork Rally</td>
+    <td>Andy Heekin</td>
+  </tr>
+  <tr>
+    <td>07/03/2022</td>
+    <td>Killarney Gravel Rally</td>
+    <td>Ian Mc Carthy</td>
+  
+  </tr>
+</table>
+		
+  <section class="section2">
+    <h2 class="sectionTitle">My Story</h2>
+    <hr class="sectionTitleRule">
+    <hr class="sectionTitleRule2">		
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe width="420" height="345" src="https://youtu.be/P3LxGY_OMzM">
+</iframe>
+
+</body>
+</html>
+
+
+		
+</body>
+</html>
+
+ </p>
+    </article>
+    <!-- Second Title & company details  -->
+    <article class="section2Content">
+     
+  
+  </aside>
+</section>
+<footer>
+  <hr>
+  <p class="footerDisclaimer">2022  Copyrights - <span>All Rights Reserved</span></p>
+</footer>
+</body>
+</html>
